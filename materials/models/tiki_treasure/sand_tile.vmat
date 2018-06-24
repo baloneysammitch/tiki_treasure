@@ -1,0 +1,5 @@
+"Layer0"
+{
+	"Shader"		"vr_standard.vfx"
+	"TextureColor"		"materials/models\tiki_treasure/sand_tile_color.png"
+}
