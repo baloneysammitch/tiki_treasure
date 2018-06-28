@@ -1,0 +1,9 @@
+"ocean"
+{
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"wave"			"sounds/ocean_waves.vsnd"
+	}
+}
