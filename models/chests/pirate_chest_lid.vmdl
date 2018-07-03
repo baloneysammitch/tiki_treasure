@@ -70,21 +70,21 @@
 			[
 				{
 					m_Animationname = "ArmatureAction"
-					m_Filepath = "models/chests/anims/ArmatureAction.dmx"
+					m_Filepath = "models/chests/pirate/ArmatureAction.dmx"
 					m_nStartframe = 0
 					m_nEndframe = 30
 					m_flFps = 30.0
 					m_Loop = 
 					{
-						m_bLoop = true
-						m_bSmoothLoop = true
+						m_bLoop = false
+						m_bSmoothLoop = false
 						m_nSmoothLoopStart = 0
 						m_nSmoothLoopEnd = 0
 						m_StartLoop = 
 						{
 							_class = "CVAnimCmdStartLoop"
-							m_bEnabled = true
-							m_nLoopRestart = 30
+							m_bEnabled = false
+							m_nLoopRestart = 0
 						}
 					}
 					m_bHidden = false

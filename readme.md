@@ -1,5 +1,9 @@
 Things I've learned
 
+## General
+
+* By default the VConsole connects to the wrong port. Use 29009 instead. Tilde (~) is a nice shortcut.
+
 ## Textures
 * Make sure your texture dimensionsa are divisible by 2
 * Sometimes a png transparency is masquerading as black alpha value
@@ -14,3 +18,10 @@ Things I've learned
 * Sometimes it just didn't save... remake it.
 * Does your object lag while moving it? The collision mesh is too complicated
 * Always generate your own. Don't use the importer options.
+
+## Soundscapes
+* They are a complete nightmare.
+* Requires a scripts folder that lives in the compiled /games/ version of your map, not /content/.
+* The Env_soundscape must be visible on player spawn!
+* Run any wav file through Audacity and export using default settings to get the correct bitrate (44100). You will know you've done it right if it appears in the asset browser.
+* Amazingly, the loop function doesn't work. The loop points have to be encoded into the wav file itself. Use Wavosaure. Ctrl + L to create loop points. Save. Done.

@@ -1545,15 +1545,15 @@ CAuthPhysModel CAuthPhysModel_0
 						224
 					]
 					string m_UserFriendlyName = ""
-					string m_uuid = "a65503f3-2660-4784-9d2c-43562dfdd30b"
+					string m_uuid = "fd848fde-e5a4-4ceb-ae4b-a47793fb15c2"
 					string m_SurfaceProp = ""
 				}
 			]
 			string m_BoneName = ""
 			string m_SurfaceProp = "default"
 			CAuthPhysBody* m_pParent = NULL
-			uint m_nSerial = 1
-			string m_uuid = "d2f9a241-fed7-4815-ba78-8a10ebe1d215"
+			uint m_nSerial = 0
+			string m_uuid = "4c4beba6-fe11-4a03-a57d-114f14b1ea85"
 			bool m_bExternalRBrefFlag = false
 			symbol m_nType = AUTH_PHYS_BODY_DYNAMIC
 			float m_flMass = 0.000000

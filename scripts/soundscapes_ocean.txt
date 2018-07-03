@@ -7,3 +7,33 @@
 		"wave"			"sounds/ocean_waves.vsnd"
 	}
 }
+"cave"
+{
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_60dB"
+		"position"  	"0"
+		"attenuation" "2"
+		"wave"			"sounds/cave_water.vsnd"
+	}
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_60dB"
+		"position"  	"1"
+		"attenuation" "2"
+		"wave"			"sounds/cave_water.vsnd"
+	}
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"soundlevel" 	"SNDLVL_60dB"
+		"position"  	"2"
+		"attenuation" "2"
+		"wave"			"sounds/cave_water.vsnd"
+	}
+}

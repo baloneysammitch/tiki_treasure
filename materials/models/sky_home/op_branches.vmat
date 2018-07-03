@@ -6,6 +6,7 @@ Layer0
 
 	//---- 2-Sided Rendering ----
 	F_RENDER_BACKFACES 1
+	F_TRANSMISSIVE_SUNLIGHT 1
 
 	//---- Translucent ----
 	F_ALPHA_TEST 1
@@ -16,12 +17,6 @@ Layer0
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 	TextureColor "materials/models/sky_home/op_branches_color.jpg"
-
-	//---- Lighting ----
-	TextureGlossiness "materials/default/default_gloss.tga"
-
-	//---- Normal Map ----
-	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Translucent ----
 	g_flAlphaTestReference "0.500"
