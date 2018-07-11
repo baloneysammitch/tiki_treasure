@@ -1,0 +1,5 @@
+"Layer0"
+{
+	"Shader"		"vr_standard.vfx"
+	"TextureColor"		"materials/models\aquarium/coral_2_color.jpg"
+}

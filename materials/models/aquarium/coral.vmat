@@ -15,7 +15,7 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/models/aquarium/coral_color.jpg"
+	TextureColor "materials/models/aquarium/coral_color.png"
 
 	//---- Lighting ----
 	TextureGlossiness "materials/default/default_gloss.tga"
@@ -25,5 +25,5 @@ Layer0
 
 	//---- Translucent ----
 	g_flAlphaTestReference "0.500"
-	TextureTranslucency "materials/models/aquarium/coral_trans.jpg"
+	TextureTranslucency "materials/models/aquarium/opacity_coral.jpg"
 }

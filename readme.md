@@ -24,4 +24,5 @@ Things I've learned
 * Requires a scripts folder that lives in the compiled /games/ version of your map, not /content/.
 * The Env_soundscape must be visible on player spawn!
 * Run any wav file through Audacity and export using default settings to get the correct bitrate (44100). You will know you've done it right if it appears in the asset browser.
+* Speaking of the asset browser... Filter by "sound" and then select the sounds. It will actually play the file!  View the log with ~ and watch to see if your sounds compiled correctly.
 * Amazingly, the loop function doesn't work. The loop points have to be encoded into the wav file itself. Use Wavosaure. Ctrl + L to create loop points. Save. Done.

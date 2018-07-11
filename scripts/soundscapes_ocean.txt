@@ -1,10 +1,10 @@
-"ocean"
+"aquarium"
 {
 	"playlooping"
 	{
-		"volume"		"0.5"
+		"volume"		"0.4"
 		"pitch"			"100"
-		"wave"			"sounds/ocean_waves.vsnd"
+		"wave"			"sounds/aquarium.vsnd"
 	}
 }
 "cave"
@@ -15,7 +15,7 @@
 		"pitch"			"100"
 		"soundlevel" 	"SNDLVL_60dB"
 		"position"  	"0"
-		"attenuation" "2"
+		"attenuation" "3"
 		"wave"			"sounds/cave_water.vsnd"
 	}
 	"playlooping"
@@ -24,7 +24,7 @@
 		"pitch"			"100"
 		"soundlevel" 	"SNDLVL_60dB"
 		"position"  	"1"
-		"attenuation" "2"
+		"attenuation" "3"
 		"wave"			"sounds/cave_water.vsnd"
 	}
 	"playlooping"
@@ -33,7 +33,92 @@
 		"pitch"			"100"
 		"soundlevel" 	"SNDLVL_60dB"
 		"position"  	"2"
-		"attenuation" "2"
+		"attenuation" "3"
 		"wave"			"sounds/cave_water.vsnd"
+	}
+}
+"cave_mushroom"
+{
+	"playlooping"
+	{
+		"volume"		"0.5"
+		"pitch"			"100"
+		"attenuation" "3"
+		"wave"			"sounds/cave_mushroom.vsnd"
+	}
+}
+"fireside"
+{
+	"playlooping"
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"wave"			"sounds/fireside.vsnd"
+	}
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"position"  	"0"
+		"wave"			"sounds/fire.vsnd"
+	}
+}
+"ocean"
+{
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"sounds/ocean_waves.vsnd"
+	}
+}
+"ukulele"
+{
+	"playlooping"
+	{
+		"volume"		"0.1"
+		"pitch"			"100"
+		"attenuation" "3"
+		"wave"			"sounds/ukulele.vsnd"
+	}
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"attenuation" "3"
+		"wave"			"sounds/ocean_waves.vsnd"
+	}
+}
+"wind"
+{
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"			"100"
+		"wave"			"sounds/wind.vsnd"
+	}
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"attenuation" "3"
+		"wave"			"sounds/ocean_waves.vsnd"
+	}
+}
+"windmill"
+{
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"			"100"
+		"position"  	"0"
+		"wave"			"sounds/windmill.vsnd"
+	}
+	"playlooping"
+	{
+		"volume"		"0.2"
+		"pitch"			"100"
+		"attenuation" "3"
+		"wave"			"sounds/ocean_waves.vsnd"
 	}
 }
