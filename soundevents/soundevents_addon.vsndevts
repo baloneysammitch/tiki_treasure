@@ -1,3 +1,45 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
+  Door.Hinge =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.5
+    vsnd_files = "sounds/door_hinge.vsnd"
+  }
+  Door.Locked =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.5
+    vsnd_files = "sounds/door_locked.vsnd"
+  }
+  Cannon.Fire =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.5
+    vsnd_files = "sounds/cannon.vsnd"
+  }
+  Cannon.Fuse =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.5
+    vsnd_files = "sounds/fuse.vsnd"
+  }
+  Cork =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.5
+    vsnd_files = "sounds/cork.vsnd"
+  }
+  Money =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.5
+    vsnd_files = "sounds/money_bag.vsnd"
+  }
 }
