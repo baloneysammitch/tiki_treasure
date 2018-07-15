@@ -20,6 +20,9 @@ function Activate()
   red_gem:SetRenderAlpha(0)
   red_gem:EnableUse(false)
 
-
+  --Set kraken invisible/disabled until bell is rung
+  local kraken = Entities:FindByName(nil, "kraken")
+  kraken:SetRenderAlpha(0)
+  kraken:DisableCollision()
 
 end
