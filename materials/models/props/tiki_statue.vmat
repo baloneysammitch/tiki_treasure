@@ -9,7 +9,7 @@ Layer0
 	F_SPECULAR 1
 
 	//---- Color ----
-	g_vColorTint "[0.454902 0.031373 0.031373 0.000000]"
+	g_vColorTint "[0.250980 0.878431 0.815686 1.000000]"
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"

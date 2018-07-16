@@ -1,0 +1,493 @@
+<!-- schema text {7e125a45-3d83-4043-b292-9e24f8ef27b4} generic {198980d8-3a93-4919-b4c6-dd1fb07a3a4b} -->
+CAuthPhysModel CAuthPhysModel_0
+{
+	CAuthPhysCollisionAttributes m_CollisionAttributes = CAuthPhysCollisionAttributes
+	{
+		string m_CollisionGroup = "default"
+		string[] m_InteractAs = 
+		[
+			
+		]
+		string[] m_InteractWith = 
+		[
+			
+		]
+		string[] m_InteractExclude = 
+		[
+			
+		]
+	}
+	string m_DMXReference = ""
+	string m_embeddedKeyvalues = ""
+	CAuthPhysBody[] m_Bodies = 
+	[
+		CAuthPhysBody
+		{
+			float(8) m_BindPose = ( 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+			float(8) m_LocalBindPose = ( 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+			CAuthPhysShape[] m_Shapes = 
+			[
+				CAuthPhysShape
+				{
+					CAuthPhysCollisionAttributesOverride m_CollisionAttributes = CAuthPhysCollisionAttributesOverride
+					{
+						symbol m_nMode = AUTH_PHYS_COLL_ATTR_IGNORE
+						string m_CollisionGroup = "default"
+						string[] m_InteractAs = 
+						[
+							
+						]
+						string[] m_InteractWith = 
+						[
+							
+						]
+						string[] m_InteractExclude = 
+						[
+							
+						]
+					}
+					uint m_nType = 2
+					float m_flRadius = 0.000000
+					float(3)[] m_vCenter = 
+					[
+						( 0.188252, -0.041879, 2.980242 ),
+						( 0.188252, -0.041879, 2.980242 )
+					]
+					float(3)[] m_Vertices = 
+					[
+						( 3.404076, 2.468394, 7.986718 ),
+						( -1.103066, 4.648132, 0.040295 ),
+						( 4.030094, -2.338135, 0.516370 ),
+						( -1.796941, -4.230017, -0.228778 ),
+						( -2.820685, 3.438291, 5.518687 ),
+						( 3.733986, -3.089727, 7.756519 ),
+						( -4.743719, 0.254863, 0.179854 ),
+						( 3.728986, 2.775347, 0.123718 ),
+						( -4.443522, 0.637334, 4.471958 ),
+						( 1.755832, -4.783911, 1.290292 ),
+						( 0.202644, 4.162285, 7.320008 ),
+						( 1.622611, -5.016426, 7.082896 ),
+						( 1.831627, 4.358943, 1.482274 ),
+						( -3.781529, 2.869654, 1.545282 ),
+						( -3.685953, -2.819271, 1.316870 ),
+						( -2.793948, -4.237178, 5.990705 ),
+						( 0.946854, -4.413885, -0.091927 ),
+						( 4.304837, -0.719004, 7.838381 ),
+						( 4.547882, -0.128274, 1.496842 ),
+						( -1.717503, 4.190974, 6.335569 ),
+						( 2.136938, 3.610057, 7.784450 ),
+						( 3.749429, -2.198676, 0.022013 ),
+						( -4.863319, 0.927334, 1.078920 ),
+						( -1.124185, -5.409256, 4.013160 ),
+						( 0.938970, 3.701143, -0.179587 ),
+						( -1.731011, 4.348497, 0.069021 ),
+						( -0.827446, 4.159248, 7.053098 ),
+						( -2.800195, -2.466528, -0.297059 ),
+						( 3.911337, -2.798372, 1.001264 ),
+						( 0.964701, 4.602098, 1.315020 ),
+						( -3.033026, -3.464588, 5.979707 ),
+						( 3.639871, 2.713330, -0.036198 ),
+						( -4.638521, 0.255929, 0.023969 ),
+						( 3.844383, 2.657500, 0.325295 ),
+						( -1.312606, 4.642569, 0.056096 ),
+						( 3.210073, 2.639956, 7.998387 ),
+						( 1.653073, -4.799428, 1.198284 ),
+						( -1.807144, -4.234604, -0.209728 ),
+						( 3.741446, -3.058558, 7.760506 ),
+						( -1.345239, -5.531206, 6.280542 )
+					]
+					uint[] m_Indices = 
+					[
+						22,
+						8,
+						4,
+						22,
+						4,
+						13,
+						28,
+						5,
+						11,
+						28,
+						11,
+						9,
+						29,
+						10,
+						20,
+						29,
+						20,
+						12,
+						30,
+						26,
+						19,
+						30,
+						19,
+						4,
+						30,
+						4,
+						8,
+						30,
+						8,
+						22,
+						30,
+						22,
+						6,
+						30,
+						6,
+						14,
+						30,
+						14,
+						15,
+						31,
+						24,
+						1,
+						31,
+						1,
+						29,
+						31,
+						29,
+						12,
+						31,
+						12,
+						7,
+						31,
+						21,
+						16,
+						31,
+						16,
+						3,
+						31,
+						3,
+						27,
+						31,
+						27,
+						24,
+						32,
+						6,
+						22,
+						32,
+						22,
+						13,
+						32,
+						13,
+						25,
+						33,
+						18,
+						2,
+						33,
+						2,
+						21,
+						33,
+						21,
+						31,
+						33,
+						31,
+						7,
+						34,
+						25,
+						13,
+						34,
+						13,
+						4,
+						34,
+						4,
+						19,
+						34,
+						19,
+						26,
+						34,
+						26,
+						10,
+						34,
+						10,
+						29,
+						34,
+						29,
+						1,
+						34,
+						1,
+						24,
+						34,
+						24,
+						27,
+						34,
+						27,
+						32,
+						34,
+						32,
+						25,
+						35,
+						0,
+						33,
+						35,
+						33,
+						7,
+						35,
+						7,
+						12,
+						35,
+						12,
+						20,
+						36,
+						16,
+						21,
+						36,
+						21,
+						2,
+						36,
+						2,
+						28,
+						36,
+						28,
+						9,
+						36,
+						9,
+						11,
+						36,
+						11,
+						39,
+						36,
+						39,
+						23,
+						37,
+						23,
+						39,
+						37,
+						39,
+						15,
+						37,
+						15,
+						14,
+						37,
+						14,
+						6,
+						37,
+						6,
+						32,
+						37,
+						32,
+						27,
+						37,
+						27,
+						3,
+						37,
+						3,
+						16,
+						37,
+						16,
+						36,
+						37,
+						36,
+						23,
+						38,
+						35,
+						20,
+						38,
+						20,
+						10,
+						38,
+						10,
+						26,
+						38,
+						26,
+						30,
+						38,
+						30,
+						15,
+						38,
+						15,
+						39,
+						38,
+						39,
+						11,
+						38,
+						11,
+						5,
+						38,
+						5,
+						28,
+						38,
+						28,
+						2,
+						38,
+						2,
+						18,
+						38,
+						18,
+						17,
+						38,
+						17,
+						0,
+						38,
+						0,
+						35,
+						33,
+						0,
+						17,
+						33,
+						17,
+						18
+					]
+					string m_UserFriendlyName = ""
+					string m_uuid = "eb04b3cb-371e-468a-be6c-9a0ab413e9c7"
+					string m_SurfaceProp = ""
+				}
+			]
+			string m_BoneName = ""
+			string m_SurfaceProp = "default"
+			CAuthPhysBody* m_pParent = NULL
+			uint m_nSerial = 6
+			string m_uuid = "7e3cef6b-2bcd-4d3f-be1d-b0478dce689c"
+			bool m_bExternalRBrefFlag = false
+			symbol m_nType = AUTH_PHYS_BODY_DYNAMIC
+			float m_flMass = 0.000000
+			float(3) m_vMassCenterOffset = ( 0.000000, 0.000000, 0.000000 )
+			float m_flInertiaScale = 1.000000
+			float(3) m_vLinearVelocity = ( 0.000000, 0.000000, 0.000000 )
+			float(3) m_vAngularVelocity = ( 0.000000, 0.000000, 0.000000 )
+			float m_flLinearDamping = 0.000000
+			float m_flAngularDamping = 0.000000
+			bool m_bUseInCloth = false
+			bool[] m_bClothCollisionLayers = 
+			[
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true
+			]
+			bool m_bAlwaysDynamicOnClient = false
+			CAuthPhysCollisionAttributesOverride m_CollisionAttributes = CAuthPhysCollisionAttributesOverride
+			{
+				symbol m_nMode = AUTH_PHYS_COLL_ATTR_IGNORE
+				string m_CollisionGroup = "default"
+				string[] m_InteractAs = 
+				[
+					
+				]
+				string[] m_InteractWith = 
+				[
+					
+				]
+				string[] m_InteractExclude = 
+				[
+					
+				]
+			}
+		}
+	]
+	CAuthPhysJoint[] m_Joints = 
+	[
+		
+	]
+	CAuthPhysFx m_Fx = CAuthPhysFx
+	{
+		CAuthPhysFx::CQuad[] m_Quads = 
+		[
+			
+		]
+		CAuthPhysFx::CRod[] m_Rods = 
+		[
+			
+		]
+		CAuthPhysFx::CSpring[] m_Springs = 
+		[
+			
+		]
+		CAuthPhysFx::CConstraint[] m_Constraints = 
+		[
+			
+		]
+		CAuthPhysFx::CCapsule[] m_Capsules = 
+		[
+			
+		]
+		CAuthPhysFx::CBone[] m_Nodes = 
+		[
+			
+		]
+		CFeNamedJiggleBone[] m_JiggleBones = 
+		[
+			
+		]
+		CAuthPhysFx::CCollisionSphere[] m_CollisionSpheres = 
+		[
+			
+		]
+		CAuthPhysFx::CCollisionPlane[] m_CollisionPlanes = 
+		[
+			
+		]
+		FeNodeBase_t[] m_PresetNodeBases = 
+		[
+			
+		]
+		FeTaperedCapsuleStretch_t[] m_TaperedCapsuleStretches = 
+		[
+			
+		]
+		FeTaperedCapsuleRigid_t[] m_TaperedCapsuleRigids = 
+		[
+			
+		]
+		FeSphereRigid_t[] m_SphereRigids = 
+		[
+			
+		]
+		CAuthPhysFx::CCtrlOffset[] m_CtrlOffsets = 
+		[
+			
+		]
+		FeFitInfluence_t[] m_FitInfluences = 
+		[
+			
+		]
+		float m_flDefaultSurfaceStretch = 0.000000
+		float m_flDefaultThreadStretch = 0.000000
+		float m_flDefaultGravityScale = 1.000000
+		float m_flDefaultVelAirDrag = 0.000000
+		float m_flDefaultExpAirDrag = 0.000000
+		float m_flDefaultVelQuadAirDrag = 0.000000
+		float m_flDefaultExpQuadAirDrag = 0.000000
+		float m_flDefaultVelRodAirDrag = 0.000000
+		float m_flDefaultExpRodAirDrag = 0.000000
+		float m_flQuadVelocitySmoothRate = 0.000000
+		float m_flRodVelocitySmoothRate = 0.000000
+		float m_flWindage = 0.000000
+		float m_flWindDrag = 0.000000
+		int m_nQuadVelocitySmoothIterations = 0
+		int m_nRodVelocitySmoothIterations = 0
+		float m_flDefaultGroundFriction = 0.000000
+		float m_flDefaultWorldCollisionPenetration = 0.000000
+		float m_flAddWorldCollisionRadius = 2.000000
+		float m_flLocalForce = 1.000000
+		float m_flLocalRotation = 0.000000
+		float m_flVolumetricSolveAmount = 0.000000
+		float m_flAddCurvature = 0.000000
+		float m_flQuadBendTolerance = 0.050000
+		bool m_bFollowTheLead = false
+		bool m_bUsePerNodeLocalForceAndRotation = false
+		bool m_bUninertialRods = false
+		bool m_bExplicitMasses = false
+		bool m_bUnitlessDamping = true
+		bool m_bForceWorldCollisionOnAllNodes = false
+		int m_nMergePriority = 0
+		bool m_bNewStyle = true
+		bool m_bCanCollideWithWorldMeshes = false
+		bool m_bCanCollideWithWorldCapsulesAndSpheres = false
+		bool m_bCanCollideWithWorldHulls = false
+		bool m_bAddStiffnessRods = true
+		bool m_bRigidEdgeHinges = false
+		bool m_bSoftSkinAnimation = false
+	}
+}

@@ -1,0 +1,24 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_standard.vfx"
+
+	//---- 2-Sided Rendering ----
+	F_RENDER_BACKFACES 1
+	F_TRANSMISSIVE_SUNLIGHT 1
+
+	//---- Translucent ----
+	F_ALPHA_TEST 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/models/sky_home/branches_color.jpg"
+
+	//---- Translucent ----
+	g_flAlphaTestReference "0.500"
+	TextureTranslucency "materials/models/sky_home/tex_polesroofbranches_op.jpg"
+}
