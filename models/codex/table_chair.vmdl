@@ -73,7 +73,7 @@
 		m_pObject = null
 	}
 	m_pConstraintLists = [  ]
-	m_collision = ""
+	m_collision = "models\\codex\\table_chair.collision"
 	m_softbody = ""
 	m_sMDLFilename = ""
 	m_sOffsetHitboxSets = [  ]

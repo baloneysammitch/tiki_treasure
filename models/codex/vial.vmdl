@@ -70,7 +70,68 @@
 	}
 	m_pMaterialGroupList = 
 	{
-		m_pObject = null
+		m_pObject = 
+		{
+			m_materialGroups = 
+			[
+				{
+					m_name = "green"
+					m_materialList = 
+					[
+						"materials/models/codex/green.vmat",
+						"materials/models/codex/stuff.vmat",
+					]
+				},
+				{
+					m_name = "red"
+					m_materialList = 
+					[
+						"materials/models/codex/red.vmat",
+						"materials/models/codex/stuff.vmat",
+					]
+				},
+				{
+					m_name = "blue"
+					m_materialList = 
+					[
+						"materials/models/codex/blue.vmat",
+						"materials/models/codex/stuff.vmat",
+					]
+				},
+				{
+					m_name = "yellow"
+					m_materialList = 
+					[
+						"materials/models/codex/yellow.vmat",
+						"materials/models/codex/stuff.vmat",
+					]
+				},
+				{
+					m_name = "orange"
+					m_materialList = 
+					[
+						"materials/models/codex/orange.vmat",
+						"materials/models/codex/stuff.vmat",
+					]
+				},
+				{
+					m_name = "pink"
+					m_materialList = 
+					[
+						"materials/models/codex/pink.vmat",
+						"materials/models/codex/stuff.vmat",
+					]
+				},
+				{
+					m_name = "purple"
+					m_materialList = 
+					[
+						"materials/models/codex/purple.vmat",
+						"materials/models/codex/stuff.vmat",
+					]
+				},
+			]
+		}
 	}
 	m_pMeshGroupList = 
 	{

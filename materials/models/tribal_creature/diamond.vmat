@@ -1,0 +1,42 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_standard.vfx"
+
+	//---- 2-Sided Rendering ----
+	F_RENDER_BACKFACES 1
+	F_TRANSMISSIVE_SUNLIGHT 1
+
+	//---- Specular ----
+	F_METALNESS_TEXTURE 1
+	F_SPECULAR 1
+
+	//---- Translucent ----
+	F_GLASS 1
+	F_TRANSLUCENT 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "[1.000000 0.000000 0.000000 0.000000]"
+
+	//---- Lighting ----
+	g_flGlassFresnelExponent "3.000"
+	g_flGlassFresnelMaxOpacity "0.500"
+	g_flGlassFresnelThickness "0.100"
+	g_vMetalnessRange "[0.000 1.000]"
+	g_vReflectanceRange "[0.000 1.000]"
+	TextureGlossiness "[0.712000 0.712000 0.712000 0.000000]"
+	TextureMetalness "[0.523000 0.523000 0.523000 0.000000]"
+	TextureReflectance "[0.378000 0.378000 0.378000 0.000000]"
+
+	//---- Normal Map ----
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Translucent ----
+	g_flOpacityScale "0.696"
+	TextureTranslucency "[1.000000 1.000000 1.000000 0.000000]"
+}

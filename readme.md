@@ -4,6 +4,9 @@ Things I've learned
 
 * By default the VConsole connects to the wrong port. Use 29009 instead. Tilde (~) is a nice shortcut.
 
+## Exporting
+Getting an error when exporting via Source Engine export (dmx files)? Make sure to select Binary 9, Model 22.
+
 ## Textures
 * Make sure your texture dimensionsa are divisible by 2
 * Sometimes a png transparency is masquerading as black alpha value
