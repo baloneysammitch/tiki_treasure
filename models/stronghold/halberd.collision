@@ -50,173 +50,6 @@ CAuthPhysModel CAuthPhysModel_0
 					float m_flRadius = 0.000000
 					float(3)[] m_vCenter = 
 					[
-						( -6.661572, 25.190474, 52.910774 ),
-						( -6.661572, 25.190474, 52.910774 )
-					]
-					float(3)[] m_Vertices = 
-					[
-						( -8.761594, 33.140190, 69.597061 ),
-						( -7.638554, 24.464460, 57.186134 ),
-						( -10.010221, 27.188108, 55.590771 ),
-						( -4.144792, 26.256220, 56.772915 ),
-						( -6.497531, 29.055832, 55.143795 ),
-						( -5.984896, 20.608006, 45.941158 ),
-						( -7.007420, 21.847017, 45.222466 ),
-						( -4.447664, 21.440321, 45.738411 ),
-						( -5.461480, 22.714115, 45.004250 )
-					]
-					uint[] m_Indices = 
-					[
-						2,
-						1,
-						0,
-						3,
-						0,
-						1,
-						4,
-						2,
-						0,
-						4,
-						0,
-						3,
-						4,
-						3,
-						8,
-						5,
-						3,
-						1,
-						5,
-						1,
-						2,
-						6,
-						5,
-						2,
-						6,
-						2,
-						8,
-						7,
-						5,
-						6,
-						7,
-						6,
-						8,
-						7,
-						8,
-						3,
-						7,
-						3,
-						5,
-						4,
-						8,
-						2
-					]
-					string m_UserFriendlyName = ""
-					string m_uuid = "c6c1c540-2ea8-4fbe-afe2-9236f6f9e284"
-					string m_SurfaceProp = ""
-				},
-				CAuthPhysShape
-				{
-					CAuthPhysCollisionAttributesOverride m_CollisionAttributes = CAuthPhysCollisionAttributesOverride
-					{
-						symbol m_nMode = AUTH_PHYS_COLL_ATTR_IGNORE
-						string m_CollisionGroup = "default"
-						string[] m_InteractAs = 
-						[
-							
-						]
-						string[] m_InteractWith = 
-						[
-							
-						]
-						string[] m_InteractExclude = 
-						[
-							
-						]
-					}
-					uint m_nType = 2
-					float m_flRadius = 0.000000
-					float(3)[] m_vCenter = 
-					[
-						( 0.000011, -0.000013, -0.000109 ),
-						( 0.000011, -0.000013, -0.000109 )
-					]
-					float(3)[] m_Vertices = 
-					[
-						( 3.524796, -15.355908, -29.594320 ),
-						( -4.043868, 13.267265, 30.523222 ),
-						( 5.062071, -14.523646, -29.797110 ),
-						( -2.506636, 14.099513, 30.320448 ),
-						( -3.520465, 15.373295, 29.586306 ),
-						( 2.502310, -14.116971, -30.312868 ),
-						( -5.066346, 14.506169, 29.804605 ),
-						( 4.048228, -13.249818, -30.531153 )
-					]
-					uint[] m_Indices = 
-					[
-						4,
-						3,
-						2,
-						4,
-						2,
-						7,
-						5,
-						7,
-						2,
-						5,
-						2,
-						0,
-						6,
-						5,
-						0,
-						6,
-						0,
-						1,
-						6,
-						1,
-						3,
-						6,
-						3,
-						4,
-						6,
-						4,
-						7,
-						6,
-						7,
-						5,
-						3,
-						1,
-						0,
-						3,
-						0,
-						2
-					]
-					string m_UserFriendlyName = ""
-					string m_uuid = "5fb159e7-271e-4cb3-b717-3d24f4111932"
-					string m_SurfaceProp = ""
-				},
-				CAuthPhysShape
-				{
-					CAuthPhysCollisionAttributesOverride m_CollisionAttributes = CAuthPhysCollisionAttributesOverride
-					{
-						symbol m_nMode = AUTH_PHYS_COLL_ATTR_IGNORE
-						string m_CollisionGroup = "default"
-						string[] m_InteractAs = 
-						[
-							
-						]
-						string[] m_InteractWith = 
-						[
-							
-						]
-						string[] m_InteractExclude = 
-						[
-							
-						]
-					}
-					uint m_nType = 2
-					float m_flRadius = 0.000000
-					float(3)[] m_vCenter = 
-					[
 						( -3.964596, 21.335684, 36.552021 ),
 						( -3.964596, 21.335684, 36.552021 )
 					]
@@ -480,13 +313,180 @@ CAuthPhysModel CAuthPhysModel_0
 						24,
 						21
 					]
-					string m_UserFriendlyName = ""
+					string m_UserFriendlyName = "Convex Hull 1"
 					string m_uuid = "8fb72478-8813-4376-b10e-5c4a189f93d9"
+					string m_SurfaceProp = ""
+				},
+				CAuthPhysShape
+				{
+					CAuthPhysCollisionAttributesOverride m_CollisionAttributes = CAuthPhysCollisionAttributesOverride
+					{
+						symbol m_nMode = AUTH_PHYS_COLL_ATTR_IGNORE
+						string m_CollisionGroup = "default"
+						string[] m_InteractAs = 
+						[
+							
+						]
+						string[] m_InteractWith = 
+						[
+							
+						]
+						string[] m_InteractExclude = 
+						[
+							
+						]
+					}
+					uint m_nType = 2
+					float m_flRadius = 0.000000
+					float(3)[] m_vCenter = 
+					[
+						( -6.661572, 25.190474, 52.910774 ),
+						( -6.661572, 25.190474, 52.910774 )
+					]
+					float(3)[] m_Vertices = 
+					[
+						( -8.761594, 33.140190, 69.597061 ),
+						( -7.638554, 24.464460, 57.186134 ),
+						( -10.010221, 27.188108, 55.590771 ),
+						( -4.144792, 26.256220, 56.772915 ),
+						( -6.497531, 29.055832, 55.143795 ),
+						( -5.984896, 20.608006, 45.941158 ),
+						( -7.007420, 21.847017, 45.222466 ),
+						( -4.447664, 21.440321, 45.738411 ),
+						( -5.461480, 22.714115, 45.004250 )
+					]
+					uint[] m_Indices = 
+					[
+						2,
+						1,
+						0,
+						3,
+						0,
+						1,
+						4,
+						2,
+						0,
+						4,
+						0,
+						3,
+						4,
+						3,
+						8,
+						5,
+						3,
+						1,
+						5,
+						1,
+						2,
+						6,
+						5,
+						2,
+						6,
+						2,
+						8,
+						7,
+						5,
+						6,
+						7,
+						6,
+						8,
+						7,
+						8,
+						3,
+						7,
+						3,
+						5,
+						4,
+						8,
+						2
+					]
+					string m_UserFriendlyName = "Convex Hull 2"
+					string m_uuid = "c6c1c540-2ea8-4fbe-afe2-9236f6f9e284"
+					string m_SurfaceProp = ""
+				},
+				CAuthPhysShape
+				{
+					CAuthPhysCollisionAttributesOverride m_CollisionAttributes = CAuthPhysCollisionAttributesOverride
+					{
+						symbol m_nMode = AUTH_PHYS_COLL_ATTR_IGNORE
+						string m_CollisionGroup = "default"
+						string[] m_InteractAs = 
+						[
+							
+						]
+						string[] m_InteractWith = 
+						[
+							
+						]
+						string[] m_InteractExclude = 
+						[
+							
+						]
+					}
+					uint m_nType = 2
+					float m_flRadius = 0.000000
+					float(3)[] m_vCenter = 
+					[
+						( 0.000011, -0.000013, -0.000109 ),
+						( 0.000011, -0.000013, -0.000109 )
+					]
+					float(3)[] m_Vertices = 
+					[
+						( 3.524796, -15.355908, -29.594320 ),
+						( -4.043868, 13.267265, 30.523222 ),
+						( 5.062071, -14.523646, -29.797110 ),
+						( -2.506636, 14.099513, 30.320448 ),
+						( -3.520465, 15.373295, 29.586306 ),
+						( 2.502310, -14.116971, -30.312868 ),
+						( -5.066346, 14.506169, 29.804605 ),
+						( 4.048228, -13.249818, -30.531153 )
+					]
+					uint[] m_Indices = 
+					[
+						4,
+						3,
+						2,
+						4,
+						2,
+						7,
+						5,
+						7,
+						2,
+						5,
+						2,
+						0,
+						6,
+						5,
+						0,
+						6,
+						0,
+						1,
+						6,
+						1,
+						3,
+						6,
+						3,
+						4,
+						6,
+						4,
+						7,
+						6,
+						7,
+						5,
+						3,
+						1,
+						0,
+						3,
+						0,
+						2
+					]
+					string m_UserFriendlyName = "Convex Hull 0"
+					string m_uuid = "5fb159e7-271e-4cb3-b717-3d24f4111932"
 					string m_SurfaceProp = ""
 				}
 			]
 			string m_BoneName = ""
-			string m_SurfaceProp = "default"
+			string m_SurfaceProp = "Wood_Plank"
 			CAuthPhysBody* m_pParent = NULL
 			uint m_nSerial = 5
 			string m_uuid = "e8b3b197-6d17-49ff-af89-3fbec4eea4f9"

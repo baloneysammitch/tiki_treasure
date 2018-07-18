@@ -39,7 +39,23 @@
 	}
 	m_physicsMeshList = 
 	{
-		m_meshList = [  ]
+		m_meshList = 
+		[
+			{
+				m_meshName = "cannon_collisions"
+				m_meshFile = "models/stronghold/cannon_collisions.dmx"
+				m_bOneConvexPiece = true
+				m_flMaxError = 0.0
+				m_bUseExactGeometry = false
+				m_bAutoMass = true
+				m_flMassOverride = 100.0
+				m_bConcavePerJoint = false
+				m_bSelfCollisions = false
+				m_bForceKinematic = false
+				m_bIgnoreScale = false
+				m_bIgnoreSkeleton = false
+			},
+		]
 	}
 	m_pModelInfo = null
 	m_pBoneFlagList = 

@@ -501,7 +501,7 @@ CAuthPhysModel CAuthPhysModel_0
 				}
 			]
 			string m_BoneName = ""
-			string m_SurfaceProp = "default"
+			string m_SurfaceProp = "Misc_Small_Accessory"
 			CAuthPhysBody* m_pParent = NULL
 			uint m_nSerial = 0
 			string m_uuid = "70d5150b-238a-4ee0-b4c4-ae5672f8c00b"

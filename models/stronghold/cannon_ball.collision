@@ -333,7 +333,7 @@ CAuthPhysModel CAuthPhysModel_0
 				}
 			]
 			string m_BoneName = ""
-			string m_SurfaceProp = "default"
+			string m_SurfaceProp = "Cannon_Ball"
 			CAuthPhysBody* m_pParent = NULL
 			uint m_nSerial = 9
 			string m_uuid = "c2d7746c-76e1-4476-bc44-b5c9c78e70e0"

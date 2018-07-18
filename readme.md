@@ -29,3 +29,9 @@ Getting an error when exporting via Source Engine export (dmx files)? Make sure 
 * Run any wav file through Audacity and export using default settings to get the correct bitrate (44100). You will know you've done it right if it appears in the asset browser.
 * Speaking of the asset browser... Filter by "sound" and then select the sounds. It will actually play the file!  View the log with ~ and watch to see if your sounds compiled correctly.
 * Amazingly, the loop function doesn't work. The loop points have to be encoded into the wav file itself. Use Wavosaure. Ctrl + L to create loop points. Save. Done.
+
+## snd_event_point
+
+* Must be added to your soundevents/soundevents_addon.vsndevts file
+* Will show up in the searchable sounds!
+* You can only preview the sound if your headset is active (The game is running in the background)

@@ -7,6 +7,13 @@
     volume = 0.8
     vsnd_files = "sounds/bell.vsnd"
   }
+  Bell.Quiet =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.03
+    vsnd_files = "sounds/bell.vsnd"
+  }
   Door.Hinge =
   {
     type = "destinations.simple_vr"
@@ -20,6 +27,13 @@
     preload_vsnds = true
     volume = 0.5
     vsnd_files = "sounds/door_locked.vsnd"
+  }
+  Door.Unlock =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 1
+    vsnd_files = "sounds/door_unlock.vsnd"
   }
   Cannon.Fire =
   {

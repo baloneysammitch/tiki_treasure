@@ -284,7 +284,7 @@ CAuthPhysModel CAuthPhysModel_0
 				}
 			]
 			string m_BoneName = ""
-			string m_SurfaceProp = "glass"
+			string m_SurfaceProp = "pottery"
 			CAuthPhysBody* m_pParent = NULL
 			uint m_nSerial = 1
 			string m_uuid = "251a6df4-8da5-451d-9ce7-ceed0c93e060"
