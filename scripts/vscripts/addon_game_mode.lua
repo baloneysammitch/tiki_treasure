@@ -7,9 +7,6 @@ _G.Eggs = 0
 
 function Activate()
 
-  GameRules:SetPlayersCanSpawnAnyItems(false)
-  GameRules:SetPlayersCanSpawnTools( false )
-
   print("Number of books ", _G.Books)
   print("Eggs nested ", _G.Eggs)
 
