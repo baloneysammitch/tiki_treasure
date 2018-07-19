@@ -46,7 +46,7 @@
   {
     type = "destinations.simple_vr"
     preload_vsnds = true
-    volume = 0.5
+    volume = 1
     vsnd_files = "sounds/fuse.vsnd"
   }
   Cork =

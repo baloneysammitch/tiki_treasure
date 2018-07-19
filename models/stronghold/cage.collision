@@ -6076,7 +6076,7 @@ CAuthPhysModel CAuthPhysModel_0
 				}
 			]
 			string m_BoneName = ""
-			string m_SurfaceProp = "chain"
+			string m_SurfaceProp = "default"
 			CAuthPhysBody* m_pParent = NULL
 			uint m_nSerial = 0
 			string m_uuid = "3fa4e927-d4a6-4608-b2fb-71f1da4e108a"

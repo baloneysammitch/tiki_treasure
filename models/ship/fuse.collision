@@ -1,0 +1,325 @@
+<!-- schema text {7e125a45-3d83-4043-b292-9e24f8ef27b4} generic {198980d8-3a93-4919-b4c6-dd1fb07a3a4b} -->
+CAuthPhysModel CAuthPhysModel_0
+{
+	CAuthPhysCollisionAttributes m_CollisionAttributes = CAuthPhysCollisionAttributes
+	{
+		string m_CollisionGroup = "default"
+		string[] m_InteractAs = 
+		[
+			
+		]
+		string[] m_InteractWith = 
+		[
+			
+		]
+		string[] m_InteractExclude = 
+		[
+			
+		]
+	}
+	string m_DMXReference = ""
+	string m_embeddedKeyvalues = ""
+	CAuthPhysBody[] m_Bodies = 
+	[
+		CAuthPhysBody
+		{
+			float(8) m_BindPose = ( 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+			float(8) m_LocalBindPose = ( 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+			CAuthPhysShape[] m_Shapes = 
+			[
+				CAuthPhysShape
+				{
+					CAuthPhysCollisionAttributesOverride m_CollisionAttributes = CAuthPhysCollisionAttributesOverride
+					{
+						symbol m_nMode = AUTH_PHYS_COLL_ATTR_IGNORE
+						string m_CollisionGroup = "default"
+						string[] m_InteractAs = 
+						[
+							
+						]
+						string[] m_InteractWith = 
+						[
+							
+						]
+						string[] m_InteractExclude = 
+						[
+							
+						]
+					}
+					uint m_nType = 2
+					float m_flRadius = 0.000000
+					float(3)[] m_vCenter = 
+					[
+						( -1.686212, 0.069139, 5.654035 ),
+						( -1.686212, 0.069139, 5.654035 )
+					]
+					float(3)[] m_Vertices = 
+					[
+						( -2.603965, -1.027231, 11.498209 ),
+						( -1.017941, 1.989384, 4.944961 ),
+						( -0.000001, -0.000002, 0.000007 ),
+						( -2.918145, -2.697185, 9.406694 ),
+						( -1.480313, -2.261299, 10.578707 ),
+						( -4.041778, -1.463121, 10.326198 ),
+						( -0.715128, 1.371762, -0.079185 ),
+						( -1.362539, -0.720507, -0.125640 ),
+						( -2.385709, 1.274641, 4.893268 ),
+						( -0.307436, 0.627040, 5.098120 ),
+						( -1.656430, 1.057374, 8.475595 ),
+						( -0.818961, -0.117995, 7.923908 ),
+						( -2.895721, 0.529212, 7.719128 ),
+						( -2.387685, 1.272077, 4.902287 ),
+						( -0.308892, 0.624313, 5.107196 ),
+						( -2.078751, 0.647764, -0.204905 )
+					]
+					uint[] m_Indices = 
+					[
+						5,
+						3,
+						4,
+						5,
+						4,
+						0,
+						7,
+						3,
+						5,
+						7,
+						5,
+						15,
+						7,
+						15,
+						6,
+						7,
+						6,
+						2,
+						7,
+						2,
+						4,
+						7,
+						4,
+						3,
+						8,
+						1,
+						6,
+						8,
+						6,
+						15,
+						9,
+						2,
+						6,
+						9,
+						6,
+						1,
+						10,
+						5,
+						0,
+						10,
+						0,
+						4,
+						11,
+						10,
+						4,
+						13,
+						12,
+						10,
+						13,
+						10,
+						1,
+						13,
+						1,
+						8,
+						13,
+						8,
+						15,
+						13,
+						15,
+						5,
+						13,
+						5,
+						12,
+						14,
+						11,
+						4,
+						14,
+						4,
+						2,
+						14,
+						2,
+						9,
+						14,
+						9,
+						1,
+						14,
+						1,
+						10,
+						14,
+						10,
+						11,
+						12,
+						5,
+						10
+					]
+					string m_UserFriendlyName = ""
+					string m_uuid = "b402b98e-5087-4266-944b-be60ffdbb8f7"
+					string m_SurfaceProp = ""
+				}
+			]
+			string m_BoneName = ""
+			string m_SurfaceProp = "default"
+			CAuthPhysBody* m_pParent = NULL
+			uint m_nSerial = 3
+			string m_uuid = "d689e51a-f06d-49cc-8118-221bcf4ece79"
+			bool m_bExternalRBrefFlag = false
+			symbol m_nType = AUTH_PHYS_BODY_DYNAMIC
+			float m_flMass = 0.000000
+			float(3) m_vMassCenterOffset = ( 0.000000, 0.000000, 0.000000 )
+			float m_flInertiaScale = 1.000000
+			float(3) m_vLinearVelocity = ( 0.000000, 0.000000, 0.000000 )
+			float(3) m_vAngularVelocity = ( 0.000000, 0.000000, 0.000000 )
+			float m_flLinearDamping = 0.000000
+			float m_flAngularDamping = 0.000000
+			bool m_bUseInCloth = false
+			bool[] m_bClothCollisionLayers = 
+			[
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true,
+				true
+			]
+			bool m_bAlwaysDynamicOnClient = false
+			CAuthPhysCollisionAttributesOverride m_CollisionAttributes = CAuthPhysCollisionAttributesOverride
+			{
+				symbol m_nMode = AUTH_PHYS_COLL_ATTR_IGNORE
+				string m_CollisionGroup = "default"
+				string[] m_InteractAs = 
+				[
+					
+				]
+				string[] m_InteractWith = 
+				[
+					
+				]
+				string[] m_InteractExclude = 
+				[
+					
+				]
+			}
+		}
+	]
+	CAuthPhysJoint[] m_Joints = 
+	[
+		
+	]
+	CAuthPhysFx m_Fx = CAuthPhysFx
+	{
+		CAuthPhysFx::CQuad[] m_Quads = 
+		[
+			
+		]
+		CAuthPhysFx::CRod[] m_Rods = 
+		[
+			
+		]
+		CAuthPhysFx::CSpring[] m_Springs = 
+		[
+			
+		]
+		CAuthPhysFx::CConstraint[] m_Constraints = 
+		[
+			
+		]
+		CAuthPhysFx::CCapsule[] m_Capsules = 
+		[
+			
+		]
+		CAuthPhysFx::CBone[] m_Nodes = 
+		[
+			
+		]
+		CFeNamedJiggleBone[] m_JiggleBones = 
+		[
+			
+		]
+		CAuthPhysFx::CCollisionSphere[] m_CollisionSpheres = 
+		[
+			
+		]
+		CAuthPhysFx::CCollisionPlane[] m_CollisionPlanes = 
+		[
+			
+		]
+		FeNodeBase_t[] m_PresetNodeBases = 
+		[
+			
+		]
+		FeTaperedCapsuleStretch_t[] m_TaperedCapsuleStretches = 
+		[
+			
+		]
+		FeTaperedCapsuleRigid_t[] m_TaperedCapsuleRigids = 
+		[
+			
+		]
+		FeSphereRigid_t[] m_SphereRigids = 
+		[
+			
+		]
+		CAuthPhysFx::CCtrlOffset[] m_CtrlOffsets = 
+		[
+			
+		]
+		FeFitInfluence_t[] m_FitInfluences = 
+		[
+			
+		]
+		float m_flDefaultSurfaceStretch = 0.000000
+		float m_flDefaultThreadStretch = 0.000000
+		float m_flDefaultGravityScale = 1.000000
+		float m_flDefaultVelAirDrag = 0.000000
+		float m_flDefaultExpAirDrag = 0.000000
+		float m_flDefaultVelQuadAirDrag = 0.000000
+		float m_flDefaultExpQuadAirDrag = 0.000000
+		float m_flDefaultVelRodAirDrag = 0.000000
+		float m_flDefaultExpRodAirDrag = 0.000000
+		float m_flQuadVelocitySmoothRate = 0.000000
+		float m_flRodVelocitySmoothRate = 0.000000
+		float m_flWindage = 0.000000
+		float m_flWindDrag = 0.000000
+		int m_nQuadVelocitySmoothIterations = 0
+		int m_nRodVelocitySmoothIterations = 0
+		float m_flDefaultGroundFriction = 0.000000
+		float m_flDefaultWorldCollisionPenetration = 0.000000
+		float m_flAddWorldCollisionRadius = 2.000000
+		float m_flLocalForce = 1.000000
+		float m_flLocalRotation = 0.000000
+		float m_flVolumetricSolveAmount = 0.000000
+		float m_flAddCurvature = 0.000000
+		float m_flQuadBendTolerance = 0.050000
+		bool m_bFollowTheLead = false
+		bool m_bUsePerNodeLocalForceAndRotation = false
+		bool m_bUninertialRods = false
+		bool m_bExplicitMasses = false
+		bool m_bUnitlessDamping = true
+		bool m_bForceWorldCollisionOnAllNodes = false
+		int m_nMergePriority = 0
+		bool m_bNewStyle = true
+		bool m_bCanCollideWithWorldMeshes = false
+		bool m_bCanCollideWithWorldCapsulesAndSpheres = false
+		bool m_bCanCollideWithWorldHulls = false
+		bool m_bAddStiffnessRods = true
+		bool m_bRigidEdgeHinges = false
+		bool m_bSoftSkinAnimation = false
+	}
+}
