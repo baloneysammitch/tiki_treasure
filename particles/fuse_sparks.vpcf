@@ -4,8 +4,9 @@
 	m_Renderers = 
 	[
 		{
-			_class = "C_OP_RenderSprites"
-			m_hTexture = resource:"materials/particle/sparks/sparks.vtex"
+			_class = "C_OP_RenderTrails"
+			m_bAdditive = true
+			m_hTexture = resource:"materials/particle/cache_finder_beam.vtex"
 		},
 	]
 	m_nTopology = "PARTICLE_TOPOLOGY_POINTS"
@@ -13,14 +14,11 @@
 	m_Operators = 
 	[
 		{
-			_class = "C_OP_Decay"
-		},
-		{
-			_class = "C_OP_FadeOutSimple"
-		},
-		{
 			_class = "C_OP_BasicMovement"
-			m_Gravity = [ 0.0, 0.0, -9.8 ]
+			m_Gravity = [ 0.0, 0.0, -90.8 ]
+		},
+		{
+			_class = "C_OP_Decay"
 		},
 	]
 	m_Initializers = 
@@ -32,23 +30,42 @@
 		},
 		{
 			_class = "C_INIT_RandomLifeTime"
-			m_fLifetimeMin = 0.5
-			m_fLifetimeMax = 1.0
+			m_fLifetimeMin = 0.1
+			m_fLifetimeMax = 0.2
 		},
 		{
 			_class = "C_INIT_RandomRadius"
 			m_flRadiusMin = 0.5
-			m_flRadiusMax = 0.5
-		},
-		{
-			_class = "C_INIT_Orient2DRelToCP"
+			m_flRadiusMax = 2.0
 		},
 	]
 	m_Emitters = 
 	[
 		{
 			_class = "C_OP_ContinuousEmitter"
-			m_flEmitRate = 10.0
+		},
+	]
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ null, null, null ]
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+	m_ForceGenerators = 
+	[
+		{
+			_class = "C_OP_RandomForce"
+			m_MinForce = [ 100.0, 100.0, 100.0 ]
+			m_MaxForce = [ 100.0, 100.0, 100.0 ]
 		},
 	]
 }
