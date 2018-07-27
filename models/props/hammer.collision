@@ -18,7 +18,6 @@ CAuthPhysModel CAuthPhysModel_0
 		]
 	}
 	string m_DMXReference = ""
-	string m_embeddedKeyvalues = ""
 	CAuthPhysBody[] m_Bodies = 
 	[
 		CAuthPhysBody
@@ -146,7 +145,7 @@ CAuthPhysModel CAuthPhysModel_0
 						9
 					]
 					string m_UserFriendlyName = "Convex Hull 0"
-					string m_uuid = "5b64f660-11c6-4d5e-8b4d-b0195d372da4"
+					string m_uuid = "caec689a-e690-4aa6-9fc0-58991cc56145"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -282,7 +281,7 @@ CAuthPhysModel CAuthPhysModel_0
 						4
 					]
 					string m_UserFriendlyName = "Convex Hull 1"
-					string m_uuid = "3d66b0d7-96ed-476d-9c34-e41ec9b19d2e"
+					string m_uuid = "5e9726ec-ae63-4285-b786-eeaeb8f753f0"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -404,7 +403,7 @@ CAuthPhysModel CAuthPhysModel_0
 						4
 					]
 					string m_UserFriendlyName = "Convex Hull 2"
-					string m_uuid = "785f87c3-ae2e-404c-a333-aac7b7d220e9"
+					string m_uuid = "56cc9d73-8948-4a9d-878d-6cf069e7e9e4"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -540,7 +539,7 @@ CAuthPhysModel CAuthPhysModel_0
 						4
 					]
 					string m_UserFriendlyName = "Convex Hull 3"
-					string m_uuid = "fa100762-c454-47c9-8cb8-5ad24eb7d6cd"
+					string m_uuid = "f5ee7933-23a0-4131-89a2-ae115a4f478e"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -697,7 +696,7 @@ CAuthPhysModel CAuthPhysModel_0
 						3
 					]
 					string m_UserFriendlyName = "Convex Hull 4"
-					string m_uuid = "71e6d8a3-da58-469e-ac08-cf7f71f07ca3"
+					string m_uuid = "663bfad7-6c68-464f-9521-57e3b45d4440"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -819,7 +818,7 @@ CAuthPhysModel CAuthPhysModel_0
 						5
 					]
 					string m_UserFriendlyName = "Convex Hull 5"
-					string m_uuid = "166aede6-e3d0-4518-83d9-cdc2a16a126b"
+					string m_uuid = "450cef68-a334-4615-b00d-031eff8945cd"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1109,7 +1108,7 @@ CAuthPhysModel CAuthPhysModel_0
 						21
 					]
 					string m_UserFriendlyName = "Convex Hull 6"
-					string m_uuid = "6a5a68c2-193f-4432-8558-83f98d040589"
+					string m_uuid = "256512bd-e9f8-4aa4-994a-0edf76b1693f"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1189,7 +1188,7 @@ CAuthPhysModel CAuthPhysModel_0
 						2
 					]
 					string m_UserFriendlyName = "Convex Hull 7"
-					string m_uuid = "6ea5485f-aa61-4a2e-9498-69ff4a636f12"
+					string m_uuid = "fa2b3215-98a4-4246-89ac-ad970392e8be"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1276,7 +1275,7 @@ CAuthPhysModel CAuthPhysModel_0
 						3
 					]
 					string m_UserFriendlyName = "Convex Hull 8"
-					string m_uuid = "52c81f90-ddfc-4d2d-af1d-9c150c6cfefb"
+					string m_uuid = "8b17d066-b8e4-4951-b783-8c1e76e9500a"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1363,7 +1362,7 @@ CAuthPhysModel CAuthPhysModel_0
 						2
 					]
 					string m_UserFriendlyName = "Convex Hull 9"
-					string m_uuid = "0c38a63e-5346-4692-9439-0e1ea4bf2aa4"
+					string m_uuid = "70ee1c57-9a3f-4fed-89aa-ebc256003215"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1443,7 +1442,7 @@ CAuthPhysModel CAuthPhysModel_0
 						7
 					]
 					string m_UserFriendlyName = "Convex Hull 10"
-					string m_uuid = "3c23cbad-6865-4503-bfbd-e910d1d68a87"
+					string m_uuid = "0531a590-747b-4d54-a92d-5391da9844db"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1600,7 +1599,7 @@ CAuthPhysModel CAuthPhysModel_0
 						11
 					]
 					string m_UserFriendlyName = "Convex Hull 11"
-					string m_uuid = "8316f60b-787d-4a7a-9aab-eebf0fd527c7"
+					string m_uuid = "f2de17f3-af6f-4375-ae66-c02862c4710f"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1848,7 +1847,7 @@ CAuthPhysModel CAuthPhysModel_0
 						6
 					]
 					string m_UserFriendlyName = "Convex Hull 12"
-					string m_uuid = "9d930aa1-2572-4892-a5da-06660377c58e"
+					string m_uuid = "d4ef5e1e-3b38-4f62-919a-df629468d5e6"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1984,7 +1983,7 @@ CAuthPhysModel CAuthPhysModel_0
 						7
 					]
 					string m_UserFriendlyName = "Convex Hull 13"
-					string m_uuid = "1d9afbed-b392-42ea-b565-36e74929e316"
+					string m_uuid = "62cbdab3-61e6-49c6-a008-412019207216"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -2260,7 +2259,7 @@ CAuthPhysModel CAuthPhysModel_0
 						11
 					]
 					string m_UserFriendlyName = "Convex Hull 14"
-					string m_uuid = "dd8a0a52-0958-4ef0-b361-fd90fc59f36a"
+					string m_uuid = "0c43d71f-78d4-466a-a1a4-6335344a91d4"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -2417,19 +2416,20 @@ CAuthPhysModel CAuthPhysModel_0
 						8
 					]
 					string m_UserFriendlyName = "Convex Hull 15"
-					string m_uuid = "f394d03d-9285-4978-afd9-33c388d7fcb0"
+					string m_uuid = "1ea35a5b-3398-458f-a89d-f2675dde457b"
 					string m_SurfaceProp = ""
 				}
 			]
 			string m_BoneName = ""
-			string m_SurfaceProp = "Metal_Cube"
+			string m_SurfaceProp = "Metal_Box"
 			CAuthPhysBody* m_pParent = NULL
-			uint m_nSerial = 6
-			string m_uuid = "420ac647-2f5a-4835-98ee-bb738c799d61"
+			uint m_nSerial = 0
+			string m_uuid = "b3359254-84ce-4369-86aa-67bcfb00aaf4"
 			bool m_bExternalRBrefFlag = false
 			symbol m_nType = AUTH_PHYS_BODY_DYNAMIC
 			float m_flMass = 0.000000
-			float(3) m_vMassCenterOffset = ( 0.000000, 0.000000, 0.000000 )
+			bool m_bOverrideMassCenter = false
+			float(3) m_vMassCenterOverride = ( 0.000000, 0.000000, 0.000000 )
 			float m_flInertiaScale = 1.000000
 			float(3) m_vLinearVelocity = ( 0.000000, 0.000000, 0.000000 )
 			float(3) m_vAngularVelocity = ( 0.000000, 0.000000, 0.000000 )
@@ -2529,6 +2529,10 @@ CAuthPhysModel CAuthPhysModel_0
 		[
 			
 		]
+		FeBoxRigid_t[] m_BoxRigids = 
+		[
+			
+		]
 		FeSphereRigid_t[] m_SphereRigids = 
 		[
 			
@@ -2541,6 +2545,15 @@ CAuthPhysModel CAuthPhysModel_0
 		[
 			
 		]
+		CAuthPhysFx::CQuad[] m_SourceQuads = 
+		[
+			
+		]
+		int m_nExtraIterations = 0
+		int m_nExtraGoalIterations = 0
+		int m_nExtraPressureIterations = 0
+		float m_flGoalStrengthBias = 0.000000
+		float m_flAdditionalShearStretch = 0.000000
 		float m_flDefaultSurfaceStretch = 0.000000
 		float m_flDefaultThreadStretch = 0.000000
 		float m_flDefaultGravityScale = 1.000000
@@ -2552,6 +2565,7 @@ CAuthPhysModel CAuthPhysModel_0
 		float m_flDefaultExpRodAirDrag = 0.000000
 		float m_flQuadVelocitySmoothRate = 0.000000
 		float m_flRodVelocitySmoothRate = 0.000000
+		float m_flInternalPressure = 0.000000
 		float m_flWindage = 0.000000
 		float m_flWindDrag = 0.000000
 		int m_nQuadVelocitySmoothIterations = 0
@@ -2569,6 +2583,7 @@ CAuthPhysModel CAuthPhysModel_0
 		bool m_bUninertialRods = false
 		bool m_bExplicitMasses = false
 		bool m_bUnitlessDamping = true
+		bool m_bMadeInModelDoc = false
 		bool m_bForceWorldCollisionOnAllNodes = false
 		int m_nMergePriority = 0
 		bool m_bNewStyle = true
@@ -2578,5 +2593,7 @@ CAuthPhysModel CAuthPhysModel_0
 		bool m_bAddStiffnessRods = true
 		bool m_bRigidEdgeHinges = false
 		bool m_bSoftSkinAnimation = false
+		bool m_bAddBendOnlyRods = false
+		bool m_bStraightBendRods = false
 	}
 }

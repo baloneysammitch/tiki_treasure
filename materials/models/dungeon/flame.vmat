@@ -8,14 +8,14 @@ Layer0
 	F_RENDER_BACKFACES 1
 
 	//---- Translucent ----
-	F_TRANSLUCENT 1
+	F_ALPHA_TEST 1
 
 	//---- Color ----
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/models/dungeon/flame_color.png"
+	TextureColor "materials/default/default_color.tga"
 
 	//---- Lighting ----
 	TextureGlossiness "materials/default/default_gloss.tga"
@@ -24,6 +24,6 @@ Layer0
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Translucent ----
-	g_flOpacityScale "1.000"
-	TextureTranslucency "materials/models/dungeon/flame_alpha.png"
+	g_flAlphaTestReference "0.990"
+	TextureTranslucency "[0.000000 0.000000 0.000000 0.000000]"
 }
