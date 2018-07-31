@@ -35,3 +35,10 @@ Getting an error when exporting via Source Engine export (dmx files)? Make sure 
 * Must be added to your soundevents/soundevents_addon.vsndevts file
 * Will show up in the searchable sounds!
 * You can only preview the sound if your headset is active (The game is running in the background)
+
+## env_entity_maker
+Where to begin... You can't parent a point_template to an entity, so instead you have to use a env_entity_maker. If you want to spawn entity in a certain direction, you need to tick the PostSpawn Inherit Angles option. However, the angles will be crazy. The orientation of the env_entity_maker is useless. So is the parent object. Don't screw with the PostSpawn Inherit Angles either. They are all dead ends.
+
+Instead, make a dummy object and use it as a proxy to handle the angles. Parent the env_entity_maker to the dummy entity, and parent the dummy entity to your true parent.
+
+The position of the entity being spawned in relation to the point template ALSO matters. Put the point_template exactly on top of your target spawn entity. Zero all rotations. Again, the ONLY rotation that matters is the parent of the env_entity_maker.

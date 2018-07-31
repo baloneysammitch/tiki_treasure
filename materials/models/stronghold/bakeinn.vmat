@@ -7,9 +7,6 @@ Layer0
 	//---- 2-Sided Rendering ----
 	F_RENDER_BACKFACES 1
 
-	//---- Self Illum ----
-	F_SELF_ILLUM 1
-
 	//---- Color ----
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	g_vTexCoordOffset "[0.000 0.000]"
@@ -22,10 +19,4 @@ Layer0
 
 	//---- Normal Map ----
 	TextureNormal "materials/default/default_normal.tga"
-
-	//---- Self Illum ----
-	g_flSelfIllumScale "15.000"
-	g_vSelfIllumScrollSpeed "[0.000 0.000]"
-	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureSelfIllumMask "materials/models/stronghold/emissive.png"
 }

@@ -3,7 +3,7 @@ CAuthPhysModel CAuthPhysModel_0
 {
 	CAuthPhysCollisionAttributes m_CollisionAttributes = CAuthPhysCollisionAttributes
 	{
-		string m_CollisionGroup = "default"
+		string m_CollisionGroup = "Projectile"
 		string[] m_InteractAs = 
 		[
 			
@@ -18,7 +18,6 @@ CAuthPhysModel CAuthPhysModel_0
 		]
 	}
 	string m_DMXReference = ""
-	string m_embeddedKeyvalues = ""
 	CAuthPhysBody[] m_Bodies = 
 	[
 		CAuthPhysBody
@@ -340,7 +339,8 @@ CAuthPhysModel CAuthPhysModel_0
 			bool m_bExternalRBrefFlag = false
 			symbol m_nType = AUTH_PHYS_BODY_DYNAMIC
 			float m_flMass = 0.000000
-			float(3) m_vMassCenterOffset = ( 0.000000, 0.000000, 0.000000 )
+			bool m_bOverrideMassCenter = false
+			float(3) m_vMassCenterOverride = ( 0.000000, 0.000000, 0.000000 )
 			float m_flInertiaScale = 1.000000
 			float(3) m_vLinearVelocity = ( 0.000000, 0.000000, 0.000000 )
 			float(3) m_vAngularVelocity = ( 0.000000, 0.000000, 0.000000 )
@@ -440,6 +440,10 @@ CAuthPhysModel CAuthPhysModel_0
 		[
 			
 		]
+		FeBoxRigid_t[] m_BoxRigids = 
+		[
+			
+		]
 		FeSphereRigid_t[] m_SphereRigids = 
 		[
 			
@@ -452,6 +456,15 @@ CAuthPhysModel CAuthPhysModel_0
 		[
 			
 		]
+		CAuthPhysFx::CQuad[] m_SourceQuads = 
+		[
+			
+		]
+		int m_nExtraIterations = 0
+		int m_nExtraGoalIterations = 0
+		int m_nExtraPressureIterations = 0
+		float m_flGoalStrengthBias = 0.000000
+		float m_flAdditionalShearStretch = 0.000000
 		float m_flDefaultSurfaceStretch = 0.000000
 		float m_flDefaultThreadStretch = 0.000000
 		float m_flDefaultGravityScale = 1.000000
@@ -463,6 +476,7 @@ CAuthPhysModel CAuthPhysModel_0
 		float m_flDefaultExpRodAirDrag = 0.000000
 		float m_flQuadVelocitySmoothRate = 0.000000
 		float m_flRodVelocitySmoothRate = 0.000000
+		float m_flInternalPressure = 0.000000
 		float m_flWindage = 0.000000
 		float m_flWindDrag = 0.000000
 		int m_nQuadVelocitySmoothIterations = 0
@@ -480,6 +494,7 @@ CAuthPhysModel CAuthPhysModel_0
 		bool m_bUninertialRods = false
 		bool m_bExplicitMasses = false
 		bool m_bUnitlessDamping = true
+		bool m_bMadeInModelDoc = false
 		bool m_bForceWorldCollisionOnAllNodes = false
 		int m_nMergePriority = 0
 		bool m_bNewStyle = true
@@ -489,5 +504,7 @@ CAuthPhysModel CAuthPhysModel_0
 		bool m_bAddStiffnessRods = true
 		bool m_bRigidEdgeHinges = false
 		bool m_bSoftSkinAnimation = false
+		bool m_bAddBendOnlyRods = false
+		bool m_bStraightBendRods = false
 	}
 }

@@ -4,9 +4,6 @@ Layer0
 {
 	shader "vr_standard.vfx"
 
-	//---- 2-Sided Rendering ----
-	F_RENDER_BACKFACES 1
-
 	//---- Translucent ----
 	F_TRANSLUCENT 1
 
@@ -24,6 +21,6 @@ Layer0
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Translucent ----
-	g_flOpacityScale "0.861"
+	g_flOpacityScale "1.000"
 	TextureTranslucency "materials/models/stronghold/texture_sea_opacity.jpg"
 }

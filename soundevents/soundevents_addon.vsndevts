@@ -63,4 +63,11 @@
     volume = 0.5
     vsnd_files = "sounds/money_bag.vsnd"
   }
+  Kraken.Scream =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 1
+    vsnd_files = "sounds/kraken_scream.vsnd"
+  }
 }
