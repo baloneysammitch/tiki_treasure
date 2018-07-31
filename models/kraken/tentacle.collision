@@ -495,7 +495,7 @@ CAuthPhysModel CAuthPhysModel_0
 						43
 					]
 					string m_UserFriendlyName = ""
-					string m_uuid = "0e949b9b-c4a7-4f37-beae-d57f03dadcc7"
+					string m_uuid = "2a96062f-2f1a-4cb5-9fce-bae3acf7bc83"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -967,7 +967,7 @@ CAuthPhysModel CAuthPhysModel_0
 						25
 					]
 					string m_UserFriendlyName = ""
-					string m_uuid = "f6420027-60f2-4f70-bedf-c8b18d10ac64"
+					string m_uuid = "829fecc4-e795-4fee-99f9-64d6c58ed520"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1439,7 +1439,7 @@ CAuthPhysModel CAuthPhysModel_0
 						24
 					]
 					string m_UserFriendlyName = ""
-					string m_uuid = "ac186766-8eee-4792-8290-c3ae30f99223"
+					string m_uuid = "985b0be4-38e6-4227-9454-ac9ee989b0ca"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -1701,7 +1701,7 @@ CAuthPhysModel CAuthPhysModel_0
 						19
 					]
 					string m_UserFriendlyName = ""
-					string m_uuid = "878d0eaf-7eb3-4c07-922f-51de5d653466"
+					string m_uuid = "4d732150-4788-4f79-8124-6f41548a5d44"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -2103,7 +2103,7 @@ CAuthPhysModel CAuthPhysModel_0
 						22
 					]
 					string m_UserFriendlyName = ""
-					string m_uuid = "8c07b2c2-12fb-47fb-948a-0d47f4dd8e4a"
+					string m_uuid = "b28919a9-22c5-463a-a7ea-163cba0dd8e0"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -2526,7 +2526,7 @@ CAuthPhysModel CAuthPhysModel_0
 						32
 					]
 					string m_UserFriendlyName = ""
-					string m_uuid = "e6f6559e-80fc-4032-a293-3828205f7eb3"
+					string m_uuid = "d53595d6-d586-4d61-9fd0-5c898c02b12b"
 					string m_SurfaceProp = ""
 				},
 				CAuthPhysShape
@@ -2998,15 +2998,15 @@ CAuthPhysModel CAuthPhysModel_0
 						56
 					]
 					string m_UserFriendlyName = ""
-					string m_uuid = "a123e508-6499-45cd-ba9d-4b1260f346b1"
+					string m_uuid = "5ee96ae9-702b-4ca5-9a0b-d38118c27883"
 					string m_SurfaceProp = ""
 				}
 			]
 			string m_BoneName = ""
 			string m_SurfaceProp = "default"
 			CAuthPhysBody* m_pParent = NULL
-			uint m_nSerial = 1
-			string m_uuid = "b1ad0366-d3af-46f3-98a8-9c746731b4b9"
+			uint m_nSerial = 0
+			string m_uuid = "6bbf796c-fedd-420f-8579-55b021c5e29b"
 			bool m_bExternalRBrefFlag = false
 			symbol m_nType = AUTH_PHYS_BODY_DYNAMIC
 			float m_flMass = 0.000000

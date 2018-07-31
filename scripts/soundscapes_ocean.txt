@@ -51,13 +51,13 @@
 {
 	"playlooping"
 	{
-		"volume"		"0.1"
+		"volume"		"0.05"
 		"pitch"			"100"
 		"wave"			"sounds/fireside.vsnd"
 	}
 	"playlooping"
 	{
-		"volume"		"1"
+		"volume"		".5"
 		"pitch"			"100"
 		"position"  	"0"
 		"wave"			"sounds/fire.vsnd"

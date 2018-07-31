@@ -70,4 +70,11 @@
     volume = 1
     vsnd_files = "sounds/kraken_scream.vsnd"
   }
+  Kraken.Whip =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 1
+    vsnd_files = "sounds/kraken_whip.vsnd"
+  }
 }
