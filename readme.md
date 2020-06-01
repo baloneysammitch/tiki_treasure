@@ -42,3 +42,8 @@ Where to begin... You can't parent a point_template to an entity, so instead you
 Instead, make a dummy object and use it as a proxy to handle the angles. Parent the env_entity_maker to the dummy entity, and parent the dummy entity to your true parent.
 
 The position of the entity being spawned in relation to the point template ALSO matters. Put the point_template exactly on top of your target spawn entity. Zero all rotations. Again, the ONLY rotation that matters is the parent of the env_entity_maker.
+
+
+## Skybox cubemap
+
+Get sweet HDRI images for free from https://hdrihaven.com/ and convert them to cubemaps with https://matheowis.github.io/HDRI-to-CubeMap/
