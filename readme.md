@@ -3,6 +3,7 @@ Things I've learned
 ## General
 
 * By default the VConsole connects to the wrong port. Use 29009 instead. Tilde (~) is a nice shortcut.
+* https://developer.valvesoftware.com/wiki/Inputs_and_Outputs#Debugging
 
 ## Exporting
 Getting an error when exporting via Source Engine export (dmx files)? Make sure to select Binary 9, Model 22.
