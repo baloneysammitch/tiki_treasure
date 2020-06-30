@@ -21,13 +21,15 @@ Layer0
 	TextureColor "materials/models/stronghold/fortress_color.jpg"
 
 	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
 	g_flMetalness "0.000"
 	g_vReflectanceRange "[0.000 0.172]"
 	TextureGlossiness "materials/default/default_gloss.tga"
 	TextureReflectance "materials/models/stronghold/texture_building_specular.jpg"
 
 	//---- Normal Map ----
-	TextureNormal "materials/default/default_normal.tga"
+	TextureNormal "materials/models/stronghold/texture_building_normalmap.png"
 
 	//---- Self Illum ----
 	g_flSelfIllumScale "10.000"
