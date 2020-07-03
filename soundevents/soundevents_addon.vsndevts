@@ -49,6 +49,27 @@
     volume = 1
     vsnd_files = "sounds/fuse.vsnd"
   }
+  Chain.start =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.5
+    vsnd_files = "sounds/chain_start.vsnd"
+  }
+  Chain.loop =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.5
+    vsnd_files = "sounds/chain_loop.vsnd"
+  }
+  Chain.end =
+  {
+    type = "destinations.simple_vr"
+    preload_vsnds = true
+    volume = 0.5
+    vsnd_files = "sounds/chain_end.vsnd"
+  }
   Cork =
   {
     type = "destinations.simple_vr"
